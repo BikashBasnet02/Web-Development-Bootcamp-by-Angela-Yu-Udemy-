@@ -1,0 +1,12 @@
+body{
+    background-color:aliceblue;
+}
+hr{
+    border-color: rgb(137, 95, 235);
+    width: 5%;
+    border-width: 20%;
+    border-style: dotted;
+}
+h1,h3{
+    color: rgb(72, 89, 240);
+}
