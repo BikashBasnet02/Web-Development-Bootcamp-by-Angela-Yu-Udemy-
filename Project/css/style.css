@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Sacramento&display=swap');
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    color: #66Bfbf;
+    margin: 50px auto 10px auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5em;
+}
+h2{
+    color:#11999e;
+}
+p{
+    font-size: 20px;
+}
+h6{
+    font-weight: normal;
+    color: #66Bfbf;
+    font-size: 2em;
+    margin: 0;
+}
+.top-container{
+    background-color: aliceblue;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.profile img{
+    height: 150px;
+    width: 150px;
+    margin-top: 2em;
+}
+.skill-row img{
+    height: 250px;
+    width: 250px;
+}
+.profile p{
+    padding-bottom: 2%;
+}
+.skills h2{
+    padding-top: 1%;
+}
+.skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    overflow: hidden;   
+}
+.idea-img{
+    width: 25%;
+    float: left;
+    margin-top: -10px;
+}
+.competence-img {
+    width: 25%;
+    float: right;
+}
+hr{
+    border: none; 
+    border-top: 3px dotted #daf3f5;  
+    width: 10%;
+    margin: 20px auto;
+}
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.contact-me p {
+    margin: 0; 
+    width: 50%;  
+    line-height: 1.5;
+    padding-bottom: 2%;
+}
+.mybtn {
+	background-color:#309696;
+	border-radius:22px;
+	border:1px solid #0fc1c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0e7a7e;
+}
+.mybtn:hover {
+	background-color:#076d70;
+}
+.mybtn:active {
+	position:relative;
+	top:1px;
+}
+footer{
+    background-color: #66Bfbf;
+    height: auto;
+    padding: 20px;
+}
+.footer-link{
+    padding: 2%;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    color: #11999e;
+    text-decoration: none;
+}
+footer p{
+    padding-top: 0.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a:hover{
+    color: #095658;
+}
