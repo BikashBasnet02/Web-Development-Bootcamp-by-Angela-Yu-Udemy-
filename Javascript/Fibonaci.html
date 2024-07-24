@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Sequence</title>
+</head>
+<body>
+    <script>
+    function fibonacci(num) {
+        let fibSequence = [0, 1];
+        for (let i = 2; i < num; i++) {
+            fibSequence[i] = fibSequence[i - 1] + fibSequence[i - 2];
+        }
+        return fibSequence;
+    }
+
+    let num = 10; // Change this number to get more or fewer terms
+    let fibSeq = fibonacci(num);
+    console.log(fibSeq);
+    alert(fibSeq.join(', '));
+    </script>
+</body>
+</html>
