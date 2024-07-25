@@ -1,0 +1,27 @@
+body{
+    background-color: wheat;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(24, 12, 202);
+    margin: 20px 0 20px 0;
+}
+.dice-img{
+    height: 100px;
+    width: 100px;
+}
+.dice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.dice-img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+
